@@ -2,7 +2,10 @@
 
 List<User> users = new List<User>(){};
 
-users.Add(new User());
+User testUser = new User();
+users.Add(testUser);
+
+// Code for testing
 for ( ; ; ) {
-  users[0].GenerateMenu();
+  testUser.GenerateMenu();
 }
