@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using WorkPlanner;
+
+List<User> users = new List<User>(){};
+
+users.Add(new User());
+for ( ; ; ) {
+  users[0].GenerateMenu();
+}
